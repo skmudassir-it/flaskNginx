@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt-get update 
 sudo apt-get upgrade -y
+sudo apt-get install openssl
 sudo apt-get install nginx -y
 sudo systemctl status nginx
 sudo apt-get install python3-pip -y
